@@ -1,0 +1,15 @@
+@import "reset";
+@import "variables";
+@import "header";
+@import "menu";
+@import "latest-works";
+@import "modal__thanks";
+@import "expertise";
+@import "clients";
+@import "form";
+@import "footer";
+
+html,body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}

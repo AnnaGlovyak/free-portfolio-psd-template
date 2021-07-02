@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__content">
+            <div class="burger-menu">
+                <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                <label for="burger-checkbox" class="burger__btn">
+                    <span class="burger-layers"></span>
+                </label>
+                <nav class="burger-menu__canvas">
+                    <ul class="burger-menu__list">
+                        <li class="burger-menu__item"><a href="#" class="burger-menu__link">About Me</a></li>
+                        <li class="burger-menu__item"><a href="#" class="burger-menu__link">Services</a></li>
+                        <li class="burger-menu__item"><a href="#" class="burger-menu__link">My Works</a></li>
+                        <li class="burger-menu__item"><a href="#" class="burger-menu__link">Clients</a></li>
+                    </ul>
+                    <ul class="burger-menu__social social__block">
+                        <li class="burger-menu__social-links social__links"><a href="#" class="burger-menu__social-links-link social-links__link-facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="burger-menu__social-links social__links"><a href="#" class="burger-menu__social-links-link social-links__link-twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li class="burger-menu__social-links social__links"><a href="#" class="burger-menu__social-links-link social-links__link-dribble"><i class="fas fa-basketball-ball"></i></a></li>
+                        <li class="burger-menu__social-links social__links social__links--nomargin"><a href="#" class="burger-menu__social-links-link social-links__link-behance"><i class="fab fa-behance"></i></a></li>
+                    </ul>
+                    <div class="burger-lang"><span class="burger-lang__title">ENG</span><img src="./img/Union_Jack.png" alt="Unoin Jack" class="burger-lang__img">
+                    </div>
+                </nav>
+            </div>
+            <div class="header__circle">
+                <img src="img/Elipsa 2 kopia.png" alt="">
+            </div>
+            <div class="header__title">
+                free portfolio PSD template
+                FOR GRAPHIC designerS 
+            </div>
+            <div class="header__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            </div>
+            <button class="header__button">
+                <a class="button-div__button" href="#popup" >hire me</a>
+            </button>
+            <div class="header__scroll"><img src="img/arrow-dn.png" alt=""></div>
+        </div>
+    </header>
+    <section class="about-me"></section>
+    <section class="latest-works">
+        <h2 class="latest-works__title">
+            Latest Works
+        </h2>
+        <div class="latest-works__box">
+            <img class="latest-works__img" src="img/works/Work 1.png">
+            <img class="latest-works__img" src="img/works/Work  2.png">
+            <img class="latest-works__img" src="img/works/Work 3.png">
+            <img class="latest-works__img" src="img/works/4.png">
+            <img class="latest-works__img" src="img/works/Work 5.png">
+            <img class="latest-works__img" src="img/works/Work 6.png">
+        </div>
+    </section>
+    <div class="modal-form">
+        <div class="content-form" id="popup">
+            <a class="content-form__img" href="#">
+                <img src="img/form/close.png" alt="">
+            </a>
+            <p class="content-form__hire">Hire Me</p>
+            <form action="form" class="content-form__form">
+                <input type="text" placeholder="Your Name" class="input input--small">
+                <input type="text" placeholder="Your E-Mail" class="input input--small">
+                <input type="text" placeholder="Your Message" class="input input--big">
+            </form>
+            <a class="content-form__send" href="#"><img src="img/form/send.png" alt=""></a>
+        </div>
+    </div>
+    <div class="modal__thanks-container" id="openModal">
+        <div class="modal__thanks">
+            <div class="modal-thanks__img-container">
+                <img src="img/modal_window.png" class="modal-thanks__img" alt="">
+            </div>
+            <h2 class="modal-thanks__title">Thanks for downloading our template!</h2>
+            <p class="modal-thanks__text">Hope that you enjoy it well! Check also our site</p>
+            <a href="#close" title="Close" class="modal-thanks__close">×</a>
+            <a href="www.symu.com" class="modal-thanks__btn">www.symu.com</a>
+        </div>
+    </div>
+    <section class="expertise">
+        <div class="expertise__container">
+            <div class="expertise__inner">
+                <h2 class="expertise__title">
+                    Expert In
+                </h2>
+                <div class="expertise__articles">
+                    <div class="expertise__item">
+                        <div class="expertise__item-shape">
+                            <div class="expertise__item-img">
+                                <a class="expertise__item-icon" href="#">
+                                    <img class="expertise__item-icon" src="img/expertise/mobile-app.png"
+                                        alt="expert icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="expertise__item-title">
+                            <h4>Mobile app design</h4>
+                        </div>
+                        <div class="expertise__item-text expertise__item-text_padding-left">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim </p>
+                        </div>
+                    </div>
+                    <div class="expertise__item">
+                        <div class="expertise__item-shape">
+                            <div class="expertise__item-img">
+                                <a class="expertise__item-link" href="#">
+                                    <img class="expertise__item-icon" src="img/expertise/web-design.png"
+                                        alt="expert icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="expertise__item-title">
+                            <h4>Web design</h4>
+                        </div>
+                        <div class="expertise__item-text expertise__item-text_padding-center">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. </p>
+                        </div>
+                    </div>
+                    <div class="expertise__item">
+                        <div class="expertise__item-shape">
+                            <div class="expertise__item-img">
+                                <a class="expertise__item-link" href="#">
+                                    <img class="expertise__item-icon" src="img/expertise/web-dev.png" alt="expert icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="expertise__item-title">
+                            <h4>Web development</h4>
+                        </div>
+                        <div class="expertise__item-text expertise__item-text_padding-right">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim</p>
+                        </div>
+                    </div>
+                    <div class="expertise__item">
+                        <div class="expertise__item-shape">
+                            <div class="expertise__item-img">
+                                <a class="expertise__item-link" href="#">
+                                    <img class="expertise__item-icon" src="img/expertise/prod-design.png"
+                                        alt="expert icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="expertise__item-title">
+                            <h4>Product design</h4>
+                        </div>
+                        <div class="expertise__item-text expertise__item-text_padding-left">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim</p>
+                        </div>
+                    </div>
+                    <div class="expertise__item">
+                        <div class="expertise__item-shape">
+                            <div class="expertise__item-img">
+                                <a class="expertise__item-link" href="#">
+                                    <img class="expertise__item-icon" src="img/expertise/ux-ui.png" alt="expert icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="expertise__item-title">
+                            <h4>UX & UI</h4>
+                        </div>
+                        <div class="expertise__item-text expertise__item-text_padding-center">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. </p>
+                        </div>
+                    </div>
+                    <div class="expertise__item">
+                        <div class="expertise__item-shape">
+                            <div class="expertise__item-img expertise__item-img-camera">
+                                <a class="expertise__item-link" href="#">
+                                    <img class="expertise__item-icon" src="img/expertise/animations.png"
+                                        alt="expert icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="expertise__item-title">
+                            <h4>Animations</h4>
+                        </div>
+                        <div class="expertise__item-text expertise__item-text_padding-right">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="clients">
+            <p class="clients__title">Clients</p>
+            <div class="content clients__content">
+                <img class="content__img" src="img/logo/MSFT_logo_png.png" alt="" >
+                <img class="content__img" src="img\logo\Samsung-logo-2015-Nobg.png" alt="" >
+                <img class="content__img" src="img\logo\ibm_logo.png" alt="" >
+                <img class="content__img" src="img\logo\Google_2015_logo.svg.png" alt="" >
+            </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__question">Need a graphic designer?</div>
+        <div class="footer__text">Ready to work!</div>
+        <button class="footer__button" id="#openModal"><a class="footer__button--a" href="#openModal">Hire me</a></button>
+    </footer>
+</body>
+</html>
